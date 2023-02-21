@@ -1,0 +1,465 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: black;
+    max-width: 100vw;
+    height: auto;
+}
+
+.wrapper {
+    width: 70%;
+    height: auto;
+    margin-inline: auto;
+    background: white;
+ 
+    
+    /* margin-bottom: 10vh; */
+}
+
+.container {
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(0deg, rgba(237, 180, 46, 0.538), rgba(227, 181, 42, 0.499)), url(./imgs/axp-photography-eflZ1uxSQoE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 0px 1rem black; */
+    /* margin-bottom: 2rem; */
+    
+    
+}
+
+.header {
+    background: white;
+    width: 90%;
+    height: 110px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    box-shadow: 0px 5px 20px
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    
+}
+
+.call {
+    margin-left: 1rem;
+    margin-top: .3rem;
+}
+
+.header > .contact > .call > p .fa-phone{
+    color: black;
+    background: white;
+}
+
+.fa-envelope {
+    margin-left: 1rem;
+   
+}
+
+.header > .contact > .call > p{
+    font-size: 10px;
+}
+
+
+.links .fa-brands{
+    margin-right: .3rem;
+    margin-top: .5rem;
+}
+
+.empty {
+    height: 1.2px;
+    width: 100%;
+    background-color: orange;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-image {
+    margin-left: .8rem;
+    margin-top: .5rem;
+}
+
+.logo-image > .fa-brands:first-child {
+    position: relative;
+    left: .65rem;
+    color: brown;
+}
+
+.logo-image > .fa-brands{
+    color: orange;
+}
+
+span {
+    color: orange;
+}
+
+
+.logo-image > p {
+    margin-top: -7px;
+    margin-left: .5rem;
+    font-size: 10px;
+    font-weight: bold;
+    color: brown;
+}
+
+.logo-links a{
+    margin: 3px;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    /* font-weight: bold; */
+}
+
+.logo-links a:hover{
+    color:orange;
+    font-weight: bold;
+}
+
+.h1-and-buttons {
+    width: 100%;
+    height: 250px;
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+
+}
+
+.h1 {
+    color: white;
+    margin-inline: auto;
+    margin-top:4rem;
+    margin-bottom: 2rem;
+    font-weight: 200;
+    font-size: 2rem;
+    word-spacing: 5px;
+}
+
+
+.buttons > button {
+    padding: .5rem;
+    margin: .2rem;
+    color: lightslategray;
+    background: white;
+    border: 0;
+}
+
+.buttons > button:hover {
+    background: brown;
+    color: white;
+}
+
+
+.our-service > p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight:bold;
+}
+
+.service-div {
+    height: 2px;
+    width: 3.5rem;
+    background-color: orange;
+    margin: auto;
+    border-radius: 4px;
+}
+
+
+.service-products {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 1rem; */
+    padding: 3rem;
+    margin-top: -2rem;
+}
+
+.service-products > .product{
+    padding: 1rem;
+}
+
+
+.service-products > .product:hover{
+    background: orange;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.service-products > .product > i:hover {
+    background: white;
+    color: orange;
+}
+
+.service-products > .product > i { 
+    margin-bottom: .5rem;
+    background: orange;
+    height: 4.5rem;
+    width: 4.5rem;
+    display: grid;
+    place-content: center;
+    border-radius: 20px 20px 0 20px;
+    color: white;
+}
+
+.service-products > .product > h5{
+    margin-bottom: .3rem;
+    font-size: 1.1rem;
+}
+
+.service-products > .product > p {
+    font-size: 9px;
+}
+
+/* MOVES IN BUSINESS */
+
+.moves-in-business {
+    width: 100%;
+    background: rgba(234, 236, 238, 0.897);
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.business {
+    width: 200px;
+    height: 110px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: .5rem;
+}
+
+.business > p {
+    text-align: center;
+} 
+
+.business > p:first-child {
+    font-size: 30px;
+    color: orange;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+ 
+.why-web-design {
+    background-image: linear-gradient(to left, transparent, 30%, rgb(255, 255, 255)), url(./imgs/k-kannan-vd51pwX8EX4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 370px;
+    padding: 2rem;
+ 
+}
+
+.why-web-design > p {
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+.web-line {
+    height: 4px;
+    width: 3rem;
+    background-color: orange;
+    border-radius: 4px;
+    margin-bottom: 1.5rem ;
+    margin-top: 5px;
+}
+
+.design-image > .fa-check { 
+    color: white;
+    background: orange;
+    /* text-align: center; */
+
+    padding: 5px;
+}
+
+
+/* REVIEWS */
+
+.reviews-container > p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.review-line {
+    height: 4px;
+    width: 3rem;
+    background-color: orange;
+    border-radius: 4px;
+    margin-bottom: 10px ;
+    margin-top: 5px;
+    margin: auto;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 10px; */
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+}
+
+.review-box {
+    background: rgba(230, 233, 235, 0.641);
+    width: 200px;
+    height: 100px;
+    padding: .8rem;
+    font-size: 9px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3.5rem;
+    margin-top: 1.5rem;
+}
+
+.fa-camera {
+    color: white;
+    background: black;
+    height: 4rem;
+    width: 4rem;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+
+.rkelly {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+
+}
+
+.rkelly > .kelly >P:first-child {
+    font-weight:bold ;
+    font-size: 18px;
+}
+
+.rkelly > .kelly > P {
+    text-align: center;
+}
+
+.maps {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    gap: 1rem;
+    /* margin-top: 3rem; */
+    padding: 2.3rem;
+   
+}
+
+.map {
+    width: 50%;
+    background: rgba(183, 189, 195, 0.382);
+}
+
+.maps > .map > img{
+    width: 100%;
+    height: 170px;
+}
+
+.map >.address {
+   padding: 1rem; 
+}
+
+address {
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+.map > .address > p {
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+
+.fa-phone {
+    background: orange;
+    color: white;
+    padding: .2rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background: rgb(33, 37, 41);
+    width: 100%;
+    height: 50%;
+    border-bottom: 2px solid black;
+   
+}
+
+footer > .blackbery {
+    display: grid;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.blackbery > p {
+    margin-top: -.7rem;
+    margin-bottom: 1.5rem;
+}
+
+
+footer > .footer-links {
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer > .footer-links > a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: .8rem;
+
+}
+
+footer > .footer-links > a:hover{
+    font-weight: bold;
+    color: orange;
+}
+
+footer > .icons {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+
+}
+
+footer > .icons > i {
+    padding: .5rem;
+}
+
+.godiya > p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    color: orange;
+    text-align: center;
+    
+}
