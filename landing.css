@@ -1,5 +1,4 @@
-
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,13 +12,11 @@ body {
 }
 
 .wrapper {
-    width: 70%;
+    width: 80%;
     height: auto;
     margin-inline: auto;
     background: white;
- 
-    
-    /* margin-bottom: 10vh; */
+   
 }
 
 .container {
@@ -30,9 +27,7 @@ body {
     background-size: cover;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
-    /* border-radius: 10px; */
-    /* box-shadow: 0px 0px 1rem black; */
-    /* margin-bottom: 2rem; */
+  
     
     
 }
@@ -127,7 +122,7 @@ span {
     font-size: 10px;
     /* font-weight: bold; */
 }
-
+/* 
 .logo-links a:hover{
     color:orange;
     font-weight: bold;
@@ -186,7 +181,6 @@ span {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* gap: 1rem; */
     padding: 3rem;
     margin-top: -2rem;
 }
@@ -201,9 +195,9 @@ span {
     color: white;
     border-radius: 5px;
     
-}
+} */
 
-.service-products > .product > i:hover {
+/* .service-products > .product > i:hover {
     background: white;
     color: orange;
 }
@@ -217,20 +211,20 @@ span {
     place-content: center;
     border-radius: 20px 20px 0 20px;
     color: white;
-}
+} */
 
-.service-products > .product > h5{
+/* .service-products > .product > h5{
     margin-bottom: .3rem;
     font-size: 1.1rem;
 }
 
 .service-products > .product > p {
     font-size: 9px;
-}
+} */
 
 /* MOVES IN BUSINESS */
 
-.moves-in-business {
+/* .moves-in-business {
     width: 100%;
     background: rgba(234, 236, 238, 0.897);
     height: 170px;
@@ -290,15 +284,13 @@ span {
 .design-image > .fa-check { 
     color: white;
     background: orange;
-    /* text-align: center; */
-
     padding: 5px;
-}
+} */
 
 
 /* REVIEWS */
 
-.reviews-container > p {
+/* .reviews-container > p {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
@@ -318,7 +310,6 @@ span {
 .box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* gap: 10px; */
     margin-top: 1rem;
     margin-left: 2.5rem;
 }
@@ -370,7 +361,6 @@ span {
     display: flex;
     justify-content:center;
     gap: 1rem;
-    /* margin-top: 3rem; */
     padding: 2.3rem;
    
 }
@@ -462,5 +452,13 @@ footer > .icons > i {
     color: orange;
     text-align: center;
     
-}
+} */ */
 
+
+/* RESPONSIVE */
+
+/* @media screen  and (max-width){
+   
+} */
+
+   
